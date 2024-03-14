@@ -1,6 +1,6 @@
 # Quote Machine
 
-This project is a simple quote machine built with HTML, CSS, and JavaScript. It displays random quotes to the user and provides options to share the quote on Twitter or Tumblr.
+This project is a simple quote machine built with HTML, CSS, and JavaScript. It displays random quotes to the user and provides options to share the quote on Twitter or Tumblr. Made as one of the required projects for freecodecamp.org Front End Development Libaries certification.
 
 ## Project Structure
 
