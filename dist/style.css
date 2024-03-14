@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  /* Horizontally center */
+  align-items: center;
+  /* Vertically center */
+  height: 100%;
+  /* Ensure the wrapper takes full height of the viewport */
+}
+
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  width: 400px;
+  min-height: 200px;
+  border-radius: 25px;
+}
+
+#quote-text {
+  font-size: 1.5em;
+  font-family: "Raleway", sans-serif;
+  flex-grow: 1;
+}
+
+.q-icon {
+  margin-right: 8px;
+}
+
+#text {
+  text-align: center;
+  font-weight: 400;
+}
+
+.click {
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.icon-button {
+  float: left;
+  padding: 5px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: 1.5em;
+  margin-right: 10px;
+  height: 30px;
+  width: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button {
+  float: right;
+  padding: 5px;
+  padding-bottom: 3px;
+  text-align: center;
+  font-size: 1em;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+#buttons {
+  margin-top: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border: 0;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: hidden;
+  /* Hide vertical scrollbar */
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}
